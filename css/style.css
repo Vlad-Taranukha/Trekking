@@ -83,5 +83,90 @@ body header .header_img .header_data .header_down_arrow:hover {
   background: url("../images/header_down_arr.png") no-repeat center center, rgba(0, 0, 0, 0.5);
   transition: background-color 0.4s;
 }
+body main .about_us {
+  padding: 50px 20%;
+  background-color: #aa9b77;
+}
+body main .about_us .about_us_info {
+  border: 1px solid #918363;
+  position: relative;
+  padding: 50px 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main .about_us .about_us_info h3 {
+  font: bold 20px Quicksand, sans-serif;
+  text-transform: uppercase;
+  color: #837659;
+  display: inline-block;
+  padding: 0 10px;
+  position: absolute;
+  top: -13px;
+  background: #aa9b77;
+}
+body main .about_us .about_us_info p {
+  color: #424242;
+  font: 16px Quicksand, sans-serif;
+  text-align: center;
+}
+body main .twitter_link {
+  padding: 25px 0;
+  background: url("../images/twitter.png") 50px center no-repeat, #535253;
+}
+body main .twitter_link p a {
+  color: #ffffff;
+  font: bold 18px Quicksand, sans-serif;
+  text-decoration: none;
+  margin-left: 90px;
+  letter-spacing: 2px;
+}
+body main .twitter_link p a:hover {
+  text-decoration: underline;
+}
+body footer {
+  padding: 50px;
+  background: #424242;
+  display: flex;
+  justify-content: space-between;
+}
+body footer .footer_info {
+  width: 25%;
+}
+body footer .footer_info h3 {
+  font: bold 20px Quicksand, sans-serif;
+  color: #ffffff;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+body footer .footer_info p {
+  font: 16px Quicksand, sans-serif;
+  color: #ffffff;
+}
+body footer .footer_menu {
+  align-self: center;
+}
+body footer .footer_menu ul {
+  overflow: hidden;
+  list-style: none;
+}
+body footer .footer_menu ul li {
+  float: left;
+  border-right: 1px solid #ffffff;
+  padding: 5px 10px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+body footer .footer_menu ul li:last-of-type {
+  border-right: none;
+}
+body footer .footer_menu ul li:hover {
+  border-bottom: 2px solid #ffffff;
+}
+body footer .footer_menu ul li a {
+  font: bold 16px Quicksand, sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=style.css.map */
