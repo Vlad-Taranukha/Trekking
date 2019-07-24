@@ -119,6 +119,123 @@ body{
 
     .catalog{
 
+      .categories{
+        background: #f5f6f7;
+        padding: 50px;
+        display: flex;
+        justify-content: space-between;
+
+        form{
+          label{
+            margin-right: 20px;
+            font: bold 16px Quicksand, sans-serif;
+            text-transform: uppercase;
+            color: #333333;
+
+          }
+          input{
+            margin-right: 5px;
+          }
+        }
+
+        .see_all{
+          a{
+            text-decoration: none;
+            padding: 10px 25px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 5px;
+            font: bold 18px Quicksand, sans-serif;
+            color: #ffffff;
+            background: #aa9b77;
+            text-transform: uppercase;
+            
+            &:hover{
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+
+      .catalog_inner_wrapper{
+        background: #ffffff;
+        padding: 50px;
+
+        .men, .women{
+          margin-bottom: 20px;
+          display: flex;
+          align-items: center;
+
+          h3{
+            font: bold 20px Quicksand, sans-serif;
+            text-transform: uppercase;
+            color: #424242;
+          }
+
+          p{
+            border: 1px solid #cccccc;
+            flex-grow: 1;
+          }
+        }
+
+        .men{
+
+
+          h3{
+            margin-right: 50px;
+          }
+        }
+
+        .men_slider{
+          display: flex;
+          justify-content: flex-end;
+
+          .switcher{
+            
+            &>p{
+              font: 16px Quicksand, sans-serif;
+              color: #aa9b77;
+              font-weight: bold;
+              margin-bottom: 5px;
+            }
+            
+            .arrows{
+              display: flex;
+              margin-bottom: 5px;
+            }
+          }
+        }
+
+        .men_products{
+          display: flex;
+          overflow: hidden;
+          margin-bottom: 50px;
+
+          .product_section{
+            min-width: 100%;
+
+            .men_product_section_inner_wrapper{
+              display: grid;
+              grid-template-columns: 1fr 1fr 1fr;
+              grid-column-gap: 60px;
+
+              &>div{
+                background: #f5f6f7;
+                border: 6px solid rgba(0,0,0,0);
+                padding: 20px;
+
+                &:hover{
+                  border: 6px solid #aa9b77;
+                }
+              }
+            }
+          }
+        }
+
+        .women h3{
+          margin-left: 50px;
+        }
+      }
     }
 
     .about_us{

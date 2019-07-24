@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap&subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Trekking</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
 <header>
@@ -42,7 +45,91 @@
     </div>
 </header>
 <main>
-    <div class="catalog"></div>
+    <div class="catalog">
+        <div class="categories">
+            <form action="#" method="post">
+                <label><input type="checkbox">men</label>
+                <label><input type="checkbox">women</label>
+                <label><input type="checkbox">children</label>
+            </form>
+            <div class="see_all">
+                <a href="#">see all products</a>
+            </div>
+        </div>
+        <div class="catalog_inner_wrapper">
+            <div class="men">
+                <h3>men</h3>
+                <p></p>
+            </div>
+            <div class="men_slider">
+                <div class="switcher">
+                    <p>1 / 5</p>
+                    <div class="arrows">
+                        <div class="larr">
+                            <img src="images/larr.png" alt="">
+                        </div>
+                        <div class="rarr">
+                            <img src="images/rarr.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="men_products">
+                <div class="product_section">
+                    <div class="men_product_section_inner_wrapper">
+                        <div class="men_product">
+                            <div class="product_details"></div>
+                            <div class="product_img">
+                                <img src="images/men_tshirt.png" alt="">
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name"></div>
+                                <div class="product_price"></div>
+                            </div>
+                        </div>
+                        <div class="men_product">
+                            <div class="product_details"></div>
+                            <div class="product_img">
+                                <img src="images/man_backpack.png" alt="">
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name"></div>
+                                <div class="product_price"></div>
+                            </div>
+                        </div>
+                        <div class="men_product">
+                            <div class="product_details"></div>
+                            <div class="product_img">
+                                <img src="images/men_trousers.png" alt="">
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name"></div>
+                                <div class="product_price"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_section">
+                    <div class="men_product_section_inner_wrapper">
+                        <div class="men_product">
+
+                        </div>
+                        <div class="men_product">
+
+                        </div>
+                        <div class="men_product">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="women">
+                <p></p>
+                <h3>women</h3>
+            </div>
+        </div>
+
+    </div>
     <div class="about_us">
         <div class="about_us_info">
             <h3>about us</h3>

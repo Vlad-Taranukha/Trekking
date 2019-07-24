@@ -83,6 +83,94 @@ body header .header_img .header_data .header_down_arrow:hover {
   background: url("../images/header_down_arr.png") no-repeat center center, rgba(0, 0, 0, 0.5);
   transition: background-color 0.4s;
 }
+body main .catalog .categories {
+  background: #f5f6f7;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+body main .catalog .categories form label {
+  margin-right: 20px;
+  font: bold 16px Quicksand, sans-serif;
+  text-transform: uppercase;
+  color: #333333;
+}
+body main .catalog .categories form input {
+  margin-right: 5px;
+}
+body main .catalog .categories .see_all a {
+  text-decoration: none;
+  padding: 10px 25px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 5px;
+  font: bold 18px Quicksand, sans-serif;
+  color: #ffffff;
+  background: #aa9b77;
+  text-transform: uppercase;
+}
+body main .catalog .categories .see_all a:hover {
+  text-decoration: underline;
+}
+body main .catalog .catalog_inner_wrapper {
+  background: #ffffff;
+  padding: 50px;
+}
+body main .catalog .catalog_inner_wrapper .men, body main .catalog .catalog_inner_wrapper .women {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+body main .catalog .catalog_inner_wrapper .men h3, body main .catalog .catalog_inner_wrapper .women h3 {
+  font: bold 20px Quicksand, sans-serif;
+  text-transform: uppercase;
+  color: #424242;
+}
+body main .catalog .catalog_inner_wrapper .men p, body main .catalog .catalog_inner_wrapper .women p {
+  border: 1px solid #cccccc;
+  flex-grow: 1;
+}
+body main .catalog .catalog_inner_wrapper .men h3 {
+  margin-right: 50px;
+}
+body main .catalog .catalog_inner_wrapper .men_slider {
+  display: flex;
+  justify-content: flex-end;
+}
+body main .catalog .catalog_inner_wrapper .men_slider .switcher > p {
+  font: 16px Quicksand, sans-serif;
+  color: #aa9b77;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+body main .catalog .catalog_inner_wrapper .men_slider .switcher .arrows {
+  display: flex;
+  margin-bottom: 5px;
+}
+body main .catalog .catalog_inner_wrapper .men_products {
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+body main .catalog .catalog_inner_wrapper .men_products .product_section {
+  min-width: 100%;
+}
+body main .catalog .catalog_inner_wrapper .men_products .product_section .men_product_section_inner_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 60px;
+}
+body main .catalog .catalog_inner_wrapper .men_products .product_section .men_product_section_inner_wrapper > div {
+  background: #f5f6f7;
+  border: 6px solid rgba(0, 0, 0, 0);
+  padding: 20px;
+}
+body main .catalog .catalog_inner_wrapper .men_products .product_section .men_product_section_inner_wrapper > div:hover {
+  border: 6px solid #aa9b77;
+}
+body main .catalog .catalog_inner_wrapper .women h3 {
+  margin-left: 50px;
+}
 body main .about_us {
   padding: 50px 20%;
   background-color: #aa9b77;
