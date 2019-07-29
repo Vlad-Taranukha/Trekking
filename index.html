@@ -63,7 +63,7 @@
             </div>
             <div class="men_slider">
                 <div class="switcher">
-                    <p>1 / 5</p>
+                    <p><span id="men_current_section">1</span> / <span id="men_sections_number"></span></p>
                     <div class="arrows">
                         <div class="larr">
                             <img src="images/larr.png" alt="">
@@ -76,49 +76,374 @@
             </div>
             <div class="men_products">
                 <div class="product_section">
-                    <div class="men_product_section_inner_wrapper">
-                        <div class="men_product">
-                            <div class="product_details"></div>
+                    <div class="product_section_inner_wrapper">
+                        <div class="product">
+                            <div class="product_details">
+                                <div class="product_size">
+                                    <form action="#">
+                                        <select name="size">
+                                            <option value="" hidden selected >size</option>
+                                            <option value="xs">xs</option>
+                                            <option value="s">s</option>
+                                            <option value="m">m</option>
+                                            <option value="l">l</option>
+                                            <option value="xl">xl</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="product_color">
+                                    <div class="product_color_inner_wrapper">
+                                        <div class="red"></div>
+                                        <div class="green"></div>
+                                        <div class="blue"></div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="product_img">
-                                <img src="images/men_tshirt.png" alt="">
+                                <a href="#"><img src="images/men_tshirt.png" alt=""></a>
                             </div>
                             <div class="product_info">
-                                <div class="product_name"></div>
-                                <div class="product_price"></div>
+                                <div class="product_name"><a href="#">t-shirt</a></div>
+                                <div class="product_price">5.00 &#8364;</div>
                             </div>
                         </div>
-                        <div class="men_product">
-                            <div class="product_details"></div>
+                        <div class="product">
+                            <div class="product_details">
+                                <div class="product_size">
+                                    <form action="#">
+                                        <select name="size">
+                                            <option value="" hidden selected >size</option>
+                                            <option value="xs">xs</option>
+                                            <option value="s">s</option>
+                                            <option value="m">m</option>
+                                            <option value="l">l</option>
+                                            <option value="xl">xl</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="product_color">
+                                    <div class="product_color_inner_wrapper">
+                                        <div class="red"></div>
+                                        <div class="green"></div>
+                                        <div class="blue"></div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="product_img">
-                                <img src="images/man_backpack.png" alt="">
+                                <a href="#"><img src="images/men_trousers.png" alt=""></a>
                             </div>
                             <div class="product_info">
-                                <div class="product_name"></div>
-                                <div class="product_price"></div>
+                                <div class="product_name"><a href="#">trousers</a></div>
+                                <div class="product_price">30.00 &#8364;</div>
                             </div>
                         </div>
-                        <div class="men_product">
-                            <div class="product_details"></div>
+                        <div class="product">
+                            <div class="product_details">
+                                <div class="product_size">
+                                    <form action="#">
+                                        <select name="size">
+                                            <option value="" hidden selected >size</option>
+                                            <option value="10">10 litre</option>
+                                            <option value="20">20 litre</option>
+                                            <option value="30">30 litre</option>
+
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="product_color">
+                                    <div class="product_color_inner_wrapper">
+                                        <div class="red"></div>
+                                        <div class="green"></div>
+                                        <div class="blue"></div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="product_img">
-                                <img src="images/men_trousers.png" alt="">
+                                <a href="#"><img src="images/man_backpack.png" alt=""></a>
                             </div>
                             <div class="product_info">
-                                <div class="product_name"></div>
-                                <div class="product_price"></div>
+                                <div class="product_name"><a href="#">backpack</a></div>
+                                <div class="product_price">60.00 &#8364;</div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="product_section">
-                    <div class="men_product_section_inner_wrapper">
-                        <div class="men_product">
-
+                    <div class="product_section_inner_wrapper">
+                        <div class="product">
+                            <div class="product_details">
+                                <div class="product_size">
+                                    <form action="#">
+                                        <select name="size">
+                                            <option value="" hidden selected >size</option>
+                                            <option value="xs">xs</option>
+                                            <option value="s">s</option>
+                                            <option value="m">m</option>
+                                            <option value="l">l</option>
+                                            <option value="xl">xl</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="product_color">
+                                    <div class="product_color_inner_wrapper">
+                                        <div class="red"></div>
+                                        <div class="green"></div>
+                                        <div class="blue"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_img">
+                                <a href="#"><img src="images/men_tshirt.png" alt=""></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name"><a href="#">t-shirt</a></div>
+                                <div class="product_price">5.00 &#8364;</div>
+                            </div>
                         </div>
-                        <div class="men_product">
-
+                        <div class="product">
+                            <div class="product_details">
+                                <div class="product_size">
+                                    <form action="#">
+                                        <select name="size">
+                                            <option value="" hidden selected >size</option>
+                                            <option value="xs">xs</option>
+                                            <option value="s">s</option>
+                                            <option value="m">m</option>
+                                            <option value="l">l</option>
+                                            <option value="xl">xl</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="product_color">
+                                    <div class="product_color_inner_wrapper">
+                                        <div class="red"></div>
+                                        <div class="green"></div>
+                                        <div class="blue"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_img">
+                                <a href="#"><img src="images/men_trousers.png" alt=""></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name"><a href="#">trousers</a></div>
+                                <div class="product_price">30.00 &#8364;</div>
+                            </div>
                         </div>
-                        <div class="men_product">
+                        <div class="product">
+                            <div class="product_details">
+                                <div class="product_size">
+                                    <form action="#">
+                                        <select name="size">
+                                            <option value="" hidden selected >size</option>
+                                            <option value="10">10 litre</option>
+                                            <option value="20">20 litre</option>
+                                            <option value="30">30 litre</option>
 
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="product_color">
+                                    <div class="product_color_inner_wrapper">
+                                        <div class="red"></div>
+                                        <div class="green"></div>
+                                        <div class="blue"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_img">
+                                <a href="#"><img src="images/man_backpack.png" alt=""></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name"><a href="#">backpack</a></div>
+                                <div class="product_price">60.00 &#8364;</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_section">
+                    <div class="product_section_inner_wrapper">
+                        <div class="product">
+                            <div class="product_details">
+                                <div class="product_size">
+                                    <form action="#">
+                                        <select name="size">
+                                            <option value="" hidden selected >size</option>
+                                            <option value="xs">xs</option>
+                                            <option value="s">s</option>
+                                            <option value="m">m</option>
+                                            <option value="l">l</option>
+                                            <option value="xl">xl</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="product_color">
+                                    <div class="product_color_inner_wrapper">
+                                        <div class="red"></div>
+                                        <div class="green"></div>
+                                        <div class="blue"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_img">
+                                <a href="#"><img src="images/men_tshirt.png" alt=""></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name"><a href="#">t-shirt</a></div>
+                                <div class="product_price">5.00 &#8364;</div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product_details">
+                                <div class="product_size">
+                                    <form action="#">
+                                        <select name="size">
+                                            <option value="" hidden selected >size</option>
+                                            <option value="xs">xs</option>
+                                            <option value="s">s</option>
+                                            <option value="m">m</option>
+                                            <option value="l">l</option>
+                                            <option value="xl">xl</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="product_color">
+                                    <div class="product_color_inner_wrapper">
+                                        <div class="red"></div>
+                                        <div class="green"></div>
+                                        <div class="blue"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_img">
+                                <a href="#"><img src="images/men_trousers.png" alt=""></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name"><a href="#">trousers</a></div>
+                                <div class="product_price">30.00 &#8364;</div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product_details">
+                                <div class="product_size">
+                                    <form action="#">
+                                        <select name="size">
+                                            <option value="" hidden selected >size</option>
+                                            <option value="10">10 litre</option>
+                                            <option value="20">20 litre</option>
+                                            <option value="30">30 litre</option>
+
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="product_color">
+                                    <div class="product_color_inner_wrapper">
+                                        <div class="red"></div>
+                                        <div class="green"></div>
+                                        <div class="blue"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_img">
+                                <a href="#"><img src="images/man_backpack.png" alt=""></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name"><a href="#">backpack</a></div>
+                                <div class="product_price">60.00 &#8364;</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_section">
+                    <div class="product_section_inner_wrapper">
+                        <div class="product">
+                            <div class="product_details">
+                                <div class="product_size">
+                                    <form action="#">
+                                        <select name="size">
+                                            <option value="" hidden selected >size</option>
+                                            <option value="xs">xs</option>
+                                            <option value="s">s</option>
+                                            <option value="m">m</option>
+                                            <option value="l">l</option>
+                                            <option value="xl">xl</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="product_color">
+                                    <div class="product_color_inner_wrapper">
+                                        <div class="red"></div>
+                                        <div class="green"></div>
+                                        <div class="blue"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_img">
+                                <a href="#"><img src="images/men_tshirt.png" alt=""></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name"><a href="#">t-shirt</a></div>
+                                <div class="product_price">5.00 &#8364;</div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product_details">
+                                <div class="product_size">
+                                    <form action="#">
+                                        <select name="size">
+                                            <option value="" hidden selected >size</option>
+                                            <option value="xs">xs</option>
+                                            <option value="s">s</option>
+                                            <option value="m">m</option>
+                                            <option value="l">l</option>
+                                            <option value="xl">xl</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="product_color">
+                                    <div class="product_color_inner_wrapper">
+                                        <div class="red"></div>
+                                        <div class="green"></div>
+                                        <div class="blue"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_img">
+                                <a href="#"><img src="images/men_trousers.png" alt=""></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name"><a href="#">trousers</a></div>
+                                <div class="product_price">30.00 &#8364;</div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product_details">
+                                <div class="product_size">
+                                    <form action="#">
+                                        <select name="size">
+                                            <option value="" hidden selected >size</option>
+                                            <option value="10">10 litre</option>
+                                            <option value="20">20 litre</option>
+                                            <option value="30">30 litre</option>
+
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="product_color">
+                                    <div class="product_color_inner_wrapper">
+                                        <div class="red"></div>
+                                        <div class="green"></div>
+                                        <div class="blue"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_img">
+                                <a href="#"><img src="images/man_backpack.png" alt=""></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name"><a href="#">backpack</a></div>
+                                <div class="product_price">60.00 &#8364;</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -126,6 +451,307 @@
             <div class="women">
                 <p></p>
                 <h3>women</h3>
+            </div>
+            <div class="women_slider">
+                <div class="switcher">
+                    <p><span id="women_current_section">1</span> / <span id="women_sections_number"></span></p>
+                    <div class="arrows">
+                        <div class="larr">
+                            <img src="images/larr.png" alt="">
+                        </div>
+                        <div class="rarr">
+                            <img src="images/rarr.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="women_products">
+                <div class="product_section">
+                    <div class="product_section_inner_wrapper">
+                        <div class="product">
+                            <div class="product_details">
+                                <div class="product_size">
+                                    <form action="#">
+                                        <select name="size">
+                                            <option value="" hidden selected >size</option>
+                                            <option value="xs">xs</option>
+                                            <option value="s">s</option>
+                                            <option value="m">m</option>
+                                            <option value="l">l</option>
+                                            <option value="xl">xl</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="product_color">
+                                    <div class="product_color_inner_wrapper">
+                                        <div class="red"></div>
+                                        <div class="green"></div>
+                                        <div class="blue"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_img">
+                                <a href="#"><img src="images/women_jacket.png" alt=""></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name"><a href="#">jacket</a></div>
+                                <div class="product_price">50.00 &#8364;</div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product_details">
+                                <div class="product_size">
+                                    <form action="#">
+                                        <select name="size">
+                                            <option value="" hidden selected >size</option>
+                                            <option value="37">37</option>
+                                            <option value="38">38</option>
+                                            <option value="39">39</option>
+                                            <option value="40">40</option>
+                                            <option value="41">41</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="product_color">
+                                    <div class="product_color_inner_wrapper">
+                                        <div class="red"></div>
+                                        <div class="green"></div>
+                                        <div class="blue"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_img">
+                                <a href="#"><img src="images/women_boots.png" alt=""></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name"><a href="#">trousers</a></div>
+                                <div class="product_price">40.00 &#8364;</div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product_details">
+                                <div class="product_size">
+                                    <form action="#">
+                                        <select name="size">
+                                            <option value="" hidden selected >size</option>
+                                            <option value="" hidden selected >size</option>
+                                            <option value="xs">xs</option>
+                                            <option value="s">s</option>
+                                            <option value="m">m</option>
+                                            <option value="l">l</option>
+                                            <option value="xl">xl</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="product_color">
+                                    <div class="product_color_inner_wrapper">
+                                        <div class="red"></div>
+                                        <div class="green"></div>
+                                        <div class="blue"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_img">
+                                <a href="#"><img src="images/women_tshirt.png" alt=""></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name"><a href="#">t-shirt</a></div>
+                                <div class="product_price">10.00 &#8364;</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_section">
+                    <div class="product_section_inner_wrapper">
+                        <div class="product">
+                            <div class="product_details">
+                                <div class="product_size">
+                                    <form action="#">
+                                        <select name="size">
+                                            <option value="" hidden selected >size</option>
+                                            <option value="xs">xs</option>
+                                            <option value="s">s</option>
+                                            <option value="m">m</option>
+                                            <option value="l">l</option>
+                                            <option value="xl">xl</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="product_color">
+                                    <div class="product_color_inner_wrapper">
+                                        <div class="red"></div>
+                                        <div class="green"></div>
+                                        <div class="blue"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_img">
+                                <a href="#"><img src="images/women_jacket.png" alt=""></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name"><a href="#">jacket</a></div>
+                                <div class="product_price">50.00 &#8364;</div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product_details">
+                                <div class="product_size">
+                                    <form action="#">
+                                        <select name="size">
+                                            <option value="" hidden selected >size</option>
+                                            <option value="37">37</option>
+                                            <option value="38">38</option>
+                                            <option value="39">39</option>
+                                            <option value="40">40</option>
+                                            <option value="41">41</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="product_color">
+                                    <div class="product_color_inner_wrapper">
+                                        <div class="red"></div>
+                                        <div class="green"></div>
+                                        <div class="blue"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_img">
+                                <a href="#"><img src="images/women_boots.png" alt=""></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name"><a href="#">trousers</a></div>
+                                <div class="product_price">40.00 &#8364;</div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product_details">
+                                <div class="product_size">
+                                    <form action="#">
+                                        <select name="size">
+                                            <option value="" hidden selected >size</option>
+                                            <option value="" hidden selected >size</option>
+                                            <option value="xs">xs</option>
+                                            <option value="s">s</option>
+                                            <option value="m">m</option>
+                                            <option value="l">l</option>
+                                            <option value="xl">xl</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="product_color">
+                                    <div class="product_color_inner_wrapper">
+                                        <div class="red"></div>
+                                        <div class="green"></div>
+                                        <div class="blue"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_img">
+                                <a href="#"><img src="images/women_tshirt.png" alt=""></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name"><a href="#">t-shirt</a></div>
+                                <div class="product_price">10.00 &#8364;</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_section">
+                    <div class="product_section_inner_wrapper">
+                        <div class="product">
+                            <div class="product_details">
+                                <div class="product_size">
+                                    <form action="#">
+                                        <select name="size">
+                                            <option value="" hidden selected >size</option>
+                                            <option value="xs">xs</option>
+                                            <option value="s">s</option>
+                                            <option value="m">m</option>
+                                            <option value="l">l</option>
+                                            <option value="xl">xl</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="product_color">
+                                    <div class="product_color_inner_wrapper">
+                                        <div class="red"></div>
+                                        <div class="green"></div>
+                                        <div class="blue"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_img">
+                                <a href="#"><img src="images/women_jacket.png" alt=""></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name"><a href="#">jacket</a></div>
+                                <div class="product_price">50.00 &#8364;</div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product_details">
+                                <div class="product_size">
+                                    <form action="#">
+                                        <select name="size">
+                                            <option value="" hidden selected >size</option>
+                                            <option value="37">37</option>
+                                            <option value="38">38</option>
+                                            <option value="39">39</option>
+                                            <option value="40">40</option>
+                                            <option value="41">41</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="product_color">
+                                    <div class="product_color_inner_wrapper">
+                                        <div class="red"></div>
+                                        <div class="green"></div>
+                                        <div class="blue"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_img">
+                                <a href="#"><img src="images/women_boots.png" alt=""></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name"><a href="#">trousers</a></div>
+                                <div class="product_price">40.00 &#8364;</div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="product_details">
+                                <div class="product_size">
+                                    <form action="#">
+                                        <select name="size">
+                                            <option value="" hidden selected >size</option>
+                                            <option value="" hidden selected >size</option>
+                                            <option value="xs">xs</option>
+                                            <option value="s">s</option>
+                                            <option value="m">m</option>
+                                            <option value="l">l</option>
+                                            <option value="xl">xl</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="product_color">
+                                    <div class="product_color_inner_wrapper">
+                                        <div class="red"></div>
+                                        <div class="green"></div>
+                                        <div class="blue"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product_img">
+                                <a href="#"><img src="images/women_tshirt.png" alt=""></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name"><a href="#">t-shirt</a></div>
+                                <div class="product_price">10.00 &#8364;</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
